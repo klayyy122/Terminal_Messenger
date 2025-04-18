@@ -1,0 +1,8 @@
+{
+  "ip": "192.168.43.170",
+  "port": 1111,
+  "COLOR_RED": "\\033[31m",
+  "COLOR_RESET": "\\033[0m",
+  "frequency": 800,
+  "speed": 330
+}

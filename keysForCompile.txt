@@ -1,0 +1,3 @@
+Client: g++ client_main.cpp client.cpp -o client -lws2_32
+
+Server: g++ server_main.cpp server.cpp -o server -lws2_32
