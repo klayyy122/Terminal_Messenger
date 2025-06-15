@@ -24,8 +24,9 @@ void roll(int a = 0, int b = 100) {
     
 }
 
-void configes() {
-    ifstream file("Port.json");
+void configes() 
+{
+    ifstream file("../Port.json");
     if (!file.is_open()) {
         cerr << "Using default connection settings (config not found)" << endl;
     }
@@ -343,7 +344,7 @@ void Clients::run_client() {
     WSACleanup();
 }
 void Clients::operator >(const string& name) {
-    string filename = "logs_" + name + ".txt";
+    string filename = "../logs_" + name + ".txt";
     ofstream out;
     out.open(filename, ios::app);
     if (out.is_open()) {

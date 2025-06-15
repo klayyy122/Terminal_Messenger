@@ -12,8 +12,8 @@
 #pragma comment(lib, "ws2_32.lib")
 #include <ctime>
 #include <cmath>
-#include<windows.h>
-#include "include/nlohmann/json.hpp"
+#include <windows.h>
+#include "../../include/nlohmann/json.hpp"
 using namespace std;
 extern const char* IP_DEFAULT;
 extern int DEFAULT_PORT;
